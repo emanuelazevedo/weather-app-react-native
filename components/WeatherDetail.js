@@ -47,6 +47,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#fff',
         alignItems: 'center',
         justifyContent: 'center',
+        backgroundColor: '#d4e4f1',
     },
     tinyLogo: {
         width: 90,
@@ -74,20 +75,26 @@ const styles = StyleSheet.create({
     temperatures: {
         flex: 1,
         flexDirection: "row",
-        justifyContent: "space-between",
+        // justifyContent: "space-between",
         // textAlign: 'center',
-        width: '60%',
+        // width: '35%',
     },
-    temperatureValue: {
-        
-    },
+    // temperatureValue: {
+    //     flex: 1,
+    // },
+    // temperatureMaxMin: {
+    //     flex: 1,  
+    // },
     temperatureText: {
         // textAlign: 'center',
         fontSize: '25px',
         backgroundColor: 'yellow',
         borderTopLeftRadius: 10,
         borderBottomLeftRadius: 10,
-        padding: '15px',
+        paddingTop: '17px',
+        paddingBottom: '17px',
+        paddingRight: '5px',
+        paddingLeft: '5px',
         // marginTop: '5px',
     },
     temperatureMaxText: {
@@ -96,6 +103,9 @@ const styles = StyleSheet.create({
         backgroundColor: 'red',
         color: 'white',
         borderTopRightRadius: 10,
+        paddingTop:'2px',
+        paddingLeft: '5px',
+        paddingRight: '5px',
 
     },
     temperatureMinText: {
@@ -104,6 +114,9 @@ const styles = StyleSheet.create({
         backgroundColor: 'blue',
         color: 'white',
         borderBottomRightRadius: 10,
+        paddingTop:'2px',
+        paddingLeft: '5px',
+        paddingRight: '5px',
     },
     wind: {
         flex: 1,
